@@ -15,11 +15,12 @@
     text-decoration: none;
     font-style: normal;
 }
-body{
+/* login */
+.bodylogin{
     background: url(../img/background.jpg);
     background-size: cover;
 }
-main{
+.mainlogin{
     width: 100%;
     padding: 20px;
     margin: auto;
@@ -131,4 +132,13 @@ main{
 }
 .REGISTRO{
     display: none   ;
+}
+/* admin */
+.adminh1{
+    font-weight: 400;
+    font-size: 26px;
+}
+.adminh1:hover{
+    border-bottom: #DC5F00;
+    transition: 0.5s;
 }
